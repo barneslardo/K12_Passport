@@ -1,0 +1,23 @@
+{
+  "name": "k12_passport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "8.1.1",
+    "npm": "5.0.3"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Skylar Barnes",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.4.5",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  }
+}
